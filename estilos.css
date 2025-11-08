@@ -1,0 +1,57 @@
+/* estilos.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d7f0fc; /* celeste claro */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 10px auto 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilo especial para curiosidades */
+p:nth-of-type(2), /* Primer párrafo de Jennifer */
+p:nth-of-type(4)  /* Primer párrafo de Sam */ {
+    background-color: #eaf2f8;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}

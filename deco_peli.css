@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(to bottom, #fff5e6, #e6f7ff); /* degradado cálido-azul */
+    color: #222;
+    padding: 20px;
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    color: #ff6600;
+    font-size: 2.8em;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px #ccc;
+}
+
+h3 {
+    max-width: 900px;
+    margin: 0 auto 25px auto;
+    text-align: left;
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.8;
+}
+
+h4 {
+    font-size: 1.3em;
+    color: #d35400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Contenedores tipo tarjeta */
+p, img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+section {
+    background-color: #ffffffcc; /* blanco semi-transparente */
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 950px;
+    margin: 30px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Imágenes dentro de tarjetas */
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Párrafos */
+p {
+    font-size: 1em;
+    line-height: 1.7;
+    text-align: justify;
+    color: #333;
+}
+
+/* Enlaces */
+a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+/* Destacar recomendaciones */
+h4 + p {
+    background-color: #fff3e6;
+    border-left: 6px solid #ff6600;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
